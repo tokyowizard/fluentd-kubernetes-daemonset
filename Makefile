@@ -10,7 +10,7 @@
 # It's still possible to build, tag and push images manually. Just use:
 #	make release-all
 
-IMAGE_NAME := fluent/fluentd-kubernetes
+IMAGE_NAME := frankcrypt/fluentd-kubernetes-daemonset
 ALL_IMAGES := \
 	v1.3/debian-elasticsearch:v1.3.3-debian-elasticsearch-1.8,v1.3-debian-elasticsearch-1 \
 	v1.3/debian-loggly:v1.3.3-debian-loggly-1.3,v1.3-debian-loggly-1 \
