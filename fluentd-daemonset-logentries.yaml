@@ -31,7 +31,7 @@ spec:
         effect: NoSchedule
       containers:
       - name: fluentd
-        image: frankcrypt/fluentd-kubernetes-daemonset:v1.3-debian-logentries-1
+        image: cryptact/fluentd-kubernetes-daemonset:v1.3-debian-logentries-1
         imagePullPolicy: Always
         resources:
           limits:
